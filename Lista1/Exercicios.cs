@@ -119,7 +119,7 @@ namespace C_.Lista1
             Console.Write("Informe um número: ");
             int num = int.Parse(Console.ReadLine());
 
-            if(num <= 0 || num > 999) {
+            if (num <= 0 || num > 999) {
                 Console.WriteLine("Número inválido");
             }
             else {
@@ -133,6 +133,52 @@ namespace C_.Lista1
             }
             */
 
+            /*Ex6
+            Console.WriteLine("(+) Soma");
+            Console.WriteLine("(-) Subtração");
+            Console.WriteLine("(*) Multiplicação ");
+            Console.WriteLine("(/) Divisão");
+            Console.Write("\nEscolha uma opção: ");
+            char opcao = char.Parse(Console.ReadLine());
+
+            Console.Write("Digite os dois valores: ");
+            double val1 = double.Parse(Console.ReadLine());
+            double val2 = double.Parse(Console.ReadLine());
+
+            switch (opcao)
+            {
+                case '+':
+                    Console.WriteLine(val1 + " + " + val2 + " = " + (val1 + val2));
+                    break;
+                case '-':
+                    if (val1 > val2)
+                    {
+                        Console.WriteLine(val1 + " - " + val2 + " = " + (val1 - val2));
+                    }
+                    else
+                    {
+                        Console.WriteLine(val2 + " - " + val1 + " = " + (val2 - val1));
+                    }
+                    break;
+                case '*':
+                    Console.WriteLine(val1 + " * " + val2 + " = " + (val1 * val2));
+                    break;
+                case '/':
+                    if (val2 == 0)
+                    {
+                        Console.WriteLine("Impossível dividir por 0!");
+                    }
+                    else
+                    {
+                        Console.WriteLine(val1 + " / " + val2 + " = " + (val1 / val2));
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida!");
+                    break;
+            }
+            */
+            
         }
     }
 }
