@@ -4,6 +4,7 @@ namespace C_.Lista0
 {
     class exercicios
     {
+        /*
         static void Main(String[] args)
         {
             /*EX1
@@ -65,6 +66,5 @@ namespace C_.Lista0
 
             Console.Write("\nO valor gasto com gorjeta é R$ " + despesas * 0.10 + ".\nO valor total a ser pago é R$ " + total + ".");
             */
-        }
     }
 }
