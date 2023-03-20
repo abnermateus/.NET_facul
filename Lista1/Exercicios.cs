@@ -20,7 +20,7 @@ namespace C_.Lista1
             }
             */
 
-            /*Ex2
+            /*Ex2 
             int num1, num2, num3, num4, num5, maior, menor;
             Console.Write("Digite o 1º valor: ");
             num1 = int.Parse(Console.ReadLine());
@@ -178,7 +178,88 @@ namespace C_.Lista1
                     break;
             }
             */
-            
+
+            /*Ex7
+            Console.Write("Digite o código do produto: ");
+            int cod = int.Parse(Console.ReadLine());
+            Console.Write("Digite a quantidade: ");
+            double quant = double.Parse(Console.ReadLine());
+
+            switch (cod)
+            {
+                case 100:
+                    Console.WriteLine("O valor gasto com Cachorro Quente é: R$ " + quant * 1.20);
+                    break;
+                case 101:
+                    Console.WriteLine("O valor gasto com Bauru Simples é: R$ " + quant * 1.30);
+                    break;
+                case 102:
+                    Console.WriteLine("O valor gasto com Bauru com Ovo é: R$ " + quant * 1.50);
+                    break;
+                case 103:
+                    Console.WriteLine("O valor gasto com Hamburguer é: R$ " + quant * 1.20);
+                    break;
+                case 104:
+                    Console.WriteLine("O valor gasto com Cheeseburguer é: R$ " + quant * 1.70);
+                    break;
+                case 105:
+                    Console.WriteLine("O valor gasto com Suco é: R$ " + quant * 2.20);
+                    break;
+                case 106:
+                    Console.WriteLine("O valor gasto com Refrigerante é: R$ " + quant * 1);
+                    break;
+                default:
+                    Console.WriteLine("Código inválido!");
+                    break;
+            }
+            */
+
+            /*Ex8
+            Console.Write("Informe seu peso: ");
+            double peso = double.Parse(Console.ReadLine());
+            Console.Write("Informe sua altura: ");
+            double altura = double.Parse(Console.ReadLine());
+            double IMC = peso / (altura * altura);
+
+            if (IMC < 18.5)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está abaixo do peso!");
+            }
+            else if (IMC > 18.5 && IMC < 25)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está saudável!");
+            }
+            else if (IMC > 24.9 && IMC < 30)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está com peso em excesso!");
+            }
+            else if (IMC > 29.9 && IMC < 35)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está em Obesidade grau I!");
+            }
+            else if (IMC > 34.9 && IMC < 40)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está em Obesidade grau II (severa)!");
+            }
+            else if (IMC >= 40)
+            {
+                Console.WriteLine("Seu IMC é " + IMC + ". Você está em Obesidade grau III (mórbida)!");
+            }
+            */
+
+            /*Ex9
+            Console.Write("Informe um ano: ");
+            int ano = int.Parse(Console.ReadLine());
+
+            if (ano % 400 == 0 || ano % 4 == 0 && ano % 100 != 0)
+            {
+                Console.WriteLine("O ano é bissexto!");
+            }
+            else
+            {
+                Console.WriteLine("O ano não é bissexto!");
+            }
+            */
         }
     }
 }
