@@ -49,7 +49,14 @@ namespace C_.Lista2
                             num1 = double.Parse(Console.ReadLine());
                             Console.Write("Informe o 2º número: ");
                             num2 = double.Parse(Console.ReadLine());
-                            Console.WriteLine(num1 + " / " + num2 + " = " + (num1 / num2));
+                            if (num2 == 0)
+                            {
+                                Console.WriteLine("Impossível dividir por 0!");
+                            }
+                            else
+                            {
+                                Console.WriteLine(num1 + " / " + num2 + " = " + (num1 / num2));
+                            }
                             break;
                         default:
                             Console.WriteLine("Opção inválida! Tente novamente!");
