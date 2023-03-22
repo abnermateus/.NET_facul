@@ -2,7 +2,7 @@ using System;
 
 namespace C_.Lista0
 {
-    class exercicios
+    class Exercicios
     {
         /*
         static void Main(String[] args)

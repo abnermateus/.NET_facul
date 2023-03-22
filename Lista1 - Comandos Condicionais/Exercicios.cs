@@ -4,6 +4,7 @@ namespace C_.Lista1
 {
     public class Exercicios
     {
+        /*
         static void Main(String[] args)
         {
             /*Ex1 
@@ -260,6 +261,7 @@ namespace C_.Lista1
                 Console.WriteLine("O ano não é bissexto!");
             }
             */
-        }
+         }  
+       
     }
 }
