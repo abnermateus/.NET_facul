@@ -19,7 +19,7 @@ namespace C_.Lista1
                 Console.WriteLine("Número inválido!");
             }
             */
-
+  
             /*Ex2 
             int num1, num2, num3, num4, num5, maior, menor;
             Console.Write("Digite o 1º valor: ");
