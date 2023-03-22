@@ -6,6 +6,7 @@ namespace C_.Lista2
     {
         static void Main(String[] args)
         {
+            /*Ex1
             while (true)
             {
                 Console.WriteLine("\n[1] Adição\n[2] Subtração\n[3] Multiplicação\n[4] Divisão\n[0] Sair");
@@ -63,7 +64,27 @@ namespace C_.Lista2
                             break;
                     }
                 }
+            }*/
+
+            /*Ex2
+            Console.Write("Informe quantos valores deseja ler: ");
+            int n = int.Parse(Console.ReadLine());
+            int pares = 0, impares = 0;
+
+            while(n > 0) {
+                Console.Write("Digite um número: ");
+                int num = int.Parse(Console.ReadLine());
+
+                if(num % 2 == 0) {
+                    pares++;
+                }
+                else {
+                    impares++;
+                }
+                n--;
             }
+            Console.WriteLine("Você digitou {0} números pares e {1} números ímpares.", pares, impares);
+            */
         }
     }
 }
