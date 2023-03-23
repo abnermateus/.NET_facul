@@ -1,6 +1,6 @@
 using System;
 
-namespace C_.Lista0
+namespace C_.Lista_Introducao
 {
     class Exercicios
     {

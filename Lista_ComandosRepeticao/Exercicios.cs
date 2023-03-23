@@ -1,6 +1,6 @@
 using System;
 
-namespace C_.Lista2
+namespace C_.Lista_ComandosRepeticao
 {
     public class Exercicios
     {
@@ -149,6 +149,54 @@ namespace C_.Lista2
             }
             */
 
+            /*Ex5
+            Console.Write("Digite um número limite: ");
+            int n = int.Parse(Console.ReadLine()), num = 1;
+
+            while (num <= n)
+            {
+                Console.Write("Os divisores até {0} são: ", num);
+                int divisor = 1;
+
+                while (divisor <= num)
+                {
+                    if (num % divisor == 0)
+                    {
+                        Console.Write(divisor + " ");
+                    }
+                    divisor++;
+                }
+                Console.WriteLine();
+                num++;
+            }
+            */
+            
+            /*Ex6
+            Console.Write("Quantos números deseja digitar? ");
+            int n = int.Parse(Console.ReadLine()), cont = 1;
+            Console.Write("Digite o número {0}: ", cont);
+            int num = int.Parse(Console.ReadLine());
+            int maior = num;
+            int menor = num;
+
+            while (n - 1 > 0)
+            {
+                Console.Write("Digite o número {0}: ", ++cont);
+                num = int.Parse(Console.ReadLine());
+
+                if (num > maior)
+                {
+                    maior = num;
+                }
+                if (num < menor)
+                {
+                    menor = num;
+                }
+                n--;
+            }
+            Console.WriteLine("O maior número digitado foi {0}", maior);
+            Console.WriteLine("O menor número digitado foi {0}", menor);
+            */
         }
     }
 }
