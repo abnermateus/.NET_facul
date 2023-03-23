@@ -64,7 +64,8 @@ namespace C_.Lista2
                             break;
                     }
                 }
-            }*/
+            }
+            */
 
             /*Ex2
             Console.Write("Informe quantos valores deseja ler: ");
@@ -85,6 +86,69 @@ namespace C_.Lista2
             }
             Console.WriteLine("Você digitou {0} números pares e {1} números ímpares.", pares, impares);
             */
+
+            /*Ex3
+            Console.Write("Quantas idades deseja digitar? ");
+            double n = double.Parse(Console.ReadLine()), n_copia = n;
+            int element = 1, idade, cont15 = 0, cont30 = 0, cont45 = 0, cont60 = 0, cont61 = 0;
+
+            while (n > 0)
+            {
+                Console.Write("Digite a idade da pessoa {0}: ", element);
+                idade = int.Parse(Console.ReadLine());
+                if (idade > 0 && idade < 16)
+                {
+                    cont15++;
+                }
+                else if (idade > 15 && idade < 31)
+                {
+                    cont30++;
+                }
+                else if (idade > 30 && idade < 46)
+                {
+                    cont45++;
+                }
+                else if (idade > 45 && idade < 61)
+                {
+                    cont60++;
+                }
+                else if (idade > 60)
+                {
+                    cont61++;
+                }
+                element++;
+                n--;
+            }
+            Console.WriteLine("\nFaixa etária de 1 - 15 anos:  " + (cont15 / n_copia) * 100 + "%");
+            Console.WriteLine("Faixa etária de 16 - 30 anos:  " + (cont30 / n_copia) * 100 + "%");
+            Console.WriteLine("Faixa etária de 31 - 45 anos:  " + (cont45 / n_copia) * 100 + "%");
+            Console.WriteLine("Faixa etária de 46 - 60 anos:  " + (cont60 / n_copia) * 100 + "%");
+            Console.WriteLine("Faixa etária de  mais 60 anos:  " + (cont61 / n_copia) * 100 + "%");
+            */
+
+            /*Ex4
+            Console.Write("Informe um número: ");
+            int num = int.Parse(Console.ReadLine()), divisores = 0, i = 1;
+
+            while (i <= num)
+            {
+                if (num % i == 0)
+                {
+                    divisores++;
+                }
+                i++;
+            }
+
+            if (divisores != 2)
+            {
+                Console.WriteLine("Não é primo!");
+            }
+            else
+            {
+                Console.WriteLine("É primo!");
+            }
+            */
+
         }
     }
 }
