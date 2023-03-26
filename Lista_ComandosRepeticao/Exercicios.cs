@@ -170,7 +170,7 @@ namespace C_.Lista_ComandosRepeticao
                 num++;
             }
             */
-            
+
             /*Ex6
             Console.Write("Quantos números deseja digitar? ");
             int n = int.Parse(Console.ReadLine()), cont = 1;
