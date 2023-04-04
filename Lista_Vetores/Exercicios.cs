@@ -4,6 +4,7 @@ namespace Lista_Vetores
 {
     class Exercicios
     {
+        /*
         public static void Main(String[] args)
         {
             /*Ex1
@@ -53,6 +54,7 @@ namespace Lista_Vetores
             }
            */
 
+            /*Ex3
             double[] v1 = new double[5], v2 = new double[5];
             Console.WriteLine("Digite 5 valores reais");
 
@@ -75,7 +77,44 @@ namespace Lista_Vetores
             {
                 Console.Write("{0} ", v2[i]);
             }
+            */
+
+            /*Ex4
+            int[] v = new int[10];
+            int menor = 0, maior = 0;
+            double media = 0;
+            Console.WriteLine("Informe 10 números");
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Digite o {0}º número: ", i + 1);
+                v[i] = int.Parse(Console.ReadLine());
+
+                menor = v[0];
+                maior = v[0];
+                media += v[i];
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (v[i] < menor)
+                {
+                    menor = v[i];
+                }
+
+                if (v[i] > maior)
+                {
+                    maior = v[i];
+                }
+            }
+
+            media /= 10;
+
+            Console.WriteLine("O menor elemento da sequência é o {0}.", menor);
+            Console.WriteLine("O maior elemento da sequência é o {0}.", maior);
+            Console.WriteLine("A média dos elementos é {0}.", media);
         }
+         */
     }
 }
 
