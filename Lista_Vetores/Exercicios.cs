@@ -17,7 +17,6 @@ namespace Lista_Vetores
                 a[i] = int.Parse(Console.ReadLine());
             }
 
-
             for (int i = 0; i < 5; i++)
             {
                 Console.Write("Digite o {0}º elemento do arranjo b: ", i+1);
@@ -30,29 +29,32 @@ namespace Lista_Vetores
 
             /*Ex2
             int[] v = new int[5];
-            int menor, aux;
+            int posicao_menor = 0, aux;
             Console.WriteLine("Digite 5 valores");
-            
-            for(int i = 0; i < 5; i++)
+
+            for (int i = 0; i < 5; i++)
             {
                 Console.Write("Informe o {0}º valor: ", i + 1);
                 v[i] = int.Parse(Console.ReadLine());
-                menor = v[0];
 
-                if(v[i] < menor)
+                if (v[i] < v[posicao_menor])
                 {
-                    menor = v[i];
-                    aux = v[0];
-                    v[0] = v[i];
-                    v[i] = aux;
+                    posicao_menor = i;
                 }
             }
+
+            Console.Write("O menor elemento deste arranjo está na posição a[{0}]\nNovo arranjo: ", posicao_menor);
+
+            aux = v[0];
+            v[0] = v[posicao_menor];
+            v[posicao_menor] = aux;
 
             for (int i = 0; i < 5; i++)
             {
                 Console.Write(v[i] + " ");
             }
-           */
+            Console.WriteLine();
+            */
 
             /*Ex3
             double[] v1 = new double[5], v2 = new double[5];
@@ -70,13 +72,13 @@ namespace Lista_Vetores
             {
                 Console.Write("{0} ", v1[i]);
             }
-
             Console.WriteLine();
 
             for (int i = 0; i < 5; i++)
             {
                 Console.Write("{0} ", v2[i]);
             }
+            Console.WriteLine();
             */
 
             /*Ex4
@@ -109,14 +111,14 @@ namespace Lista_Vetores
             }
 
             media /= 10;
-
             Console.WriteLine("O menor elemento da sequência é o {0}.", menor);
             Console.WriteLine("O maior elemento da sequência é o {0}.", maior);
             Console.WriteLine("A média dos elementos é {0}.", media);
-        }
-         */
+        } */
     }
 }
+
+
 
 
 
