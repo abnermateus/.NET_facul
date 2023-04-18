@@ -32,7 +32,6 @@ namespace Lista_Matrizes
             }
 
             Console.WriteLine("A soma de todos os elementos é {0}", soma_total);    
-            
         }
     }
 }
