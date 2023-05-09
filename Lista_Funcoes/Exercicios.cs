@@ -24,12 +24,25 @@ namespace Lista_Funcoes
         {
             Console.Write("Informe a quantidade de alunos: ");
             int quant = int.Parse(Console.ReadLine());
+            char opcao;
 
             for(int i = 0; i < quant; i++) 
             {
-                Console.WriteLine("(A ou a) para média aritmética");
-                Console.WriteLine("(A ou a) para média aritmética");
+                Console.WriteLine("A ou a para média aritmética");
+                Console.WriteLine("P ou p para média aritmética");
+                Console.Write("Digite uma opção: ");
+                opcao = char.Parse(Console.ReadLine());
 
+                Console.Write("Informe a 1º nota do aluno: ");
+                double n1 = int.Parse(Console.ReadLine());
+                Console.Write("Informe a 2º nota do aluno: ");
+                double n2 = int.Parse(Console.ReadLine());
+                Console.Write("Informe a 3º nota do aluno: ");
+                double n3 = int.Parse(Console.ReadLine());
+                
+              
+                media(opcao, n1, n2, n3);
+                
             }
 
         }
