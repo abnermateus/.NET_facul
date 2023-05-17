@@ -28,7 +28,6 @@ namespace Lista_Funcoes
                 Console.WriteLine(media + "\n");
             } while (salario >= 0);
         }
-
         public static void Main(string[] args)
         {
             Populacao();
