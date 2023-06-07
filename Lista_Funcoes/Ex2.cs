@@ -8,7 +8,7 @@ namespace Lista_Funcoes
         {
             int filhos, pessoas = 0;
             double salario, sal_tot = 0, media = 0;
-
+            
             do
             {
                 Console.Write("Informe o salário: ");
@@ -28,6 +28,7 @@ namespace Lista_Funcoes
                 Console.WriteLine(media + "\n");
             } while (salario >= 0);
         }
+        
         public static void Main(string[] args)
         {
             Populacao();
