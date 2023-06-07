@@ -10,7 +10,6 @@ namespace C_.Lista_Arquivos
         {
             string caminho = "Lista_Arquivos\\alunos.txt";
             lerArquivo(caminho);
-
             
         }
 
@@ -35,7 +34,6 @@ namespace C_.Lista_Arquivos
             }
             return 0;
         }
-
     }
 }
 
