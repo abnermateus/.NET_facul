@@ -4,6 +4,7 @@ namespace Lista_Funcoes
 {
     class Ex2
     {
+        /*
         static void Populacao()
         {
             int filhos, pessoas = 0;
@@ -29,9 +30,11 @@ namespace Lista_Funcoes
             } while (salario >= 0);
         }
         
+        
         public static void Main(string[] args)
         {
             Populacao();
         }
+        */
     }
 }

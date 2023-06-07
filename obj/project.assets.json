@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\CSharp_PUC-MG.csproj",
-      "projectName": "CSharp_PUC-MG",
-      "projectPath": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\CSharp_PUC-MG.csproj",
+      "projectUniqueName": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
+      "projectName": "C#",
+      "projectPath": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
       "packagesPath": "C:\\Users\\Abner\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\obj\\",
       "projectStyle": "PackageReference",

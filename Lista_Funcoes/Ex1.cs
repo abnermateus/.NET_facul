@@ -4,6 +4,7 @@ namespace Lista_Funcoes
 {
     class Ex1
     {
+        /*
         static void Media(char tip_med, double n1, double n2, double n3)
         {
             double result;
@@ -19,7 +20,7 @@ namespace Lista_Funcoes
                 Console.WriteLine("A média ponderada de {0}, {1}, {2} é: {3}", n1, n2, n3, result);
             }
         }
-        /*
+    
         public static void Main(string[] args)
         {
             Console.Write("Informe a quantidade de alunos: ");
