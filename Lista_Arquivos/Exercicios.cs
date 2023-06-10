@@ -21,7 +21,7 @@ namespace C_.Lista_Arquivos
             maiorNota(caminho);
             imprimeDados(nomes, medias);
         }
-        
+
         static int tamanhoArquivo(string caminho)
         {
             int cont = 0;
@@ -165,7 +165,6 @@ namespace C_.Lista_Arquivos
                     double nota1 = double.Parse(dados[2]) / 10.0;
                     double nota2 = double.Parse(dados[3]) / 10.0;
                     double nota3 = double.Parse(dados[4]) / 10.0;
-
 
                     if (nota1 > maior)
                     {
