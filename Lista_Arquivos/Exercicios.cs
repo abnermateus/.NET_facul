@@ -15,10 +15,10 @@ namespace C_.Lista_Arquivos
 
             armazenaNomes(nomes, caminho);
             armazenaMedias(medias, caminho);
-            //mediaSuperiorOuIgual(nomes, medias);
-            //mediaInferior(nomes, medias);
-            //mediaDecrescente(nomes, medias);
-            //maiorNota(caminho);
+            mediaSuperiorOuIgual(nomes, medias);
+            mediaInferior(nomes, medias);
+            mediaDecrescente(nomes, medias);
+            maiorNota(caminho);
             imprimeDados(nomes, medias);
         }
         static int tamanhoArquivo(string caminho)
@@ -147,10 +147,10 @@ namespace C_.Lista_Arquivos
             arq.Close();
         }
 
-        /*
         static void maiorNota(string caminho)
         {
-            double maior;
+            double maior = 0;
+            string nome = "";
 
             try
             {
@@ -164,28 +164,34 @@ namespace C_.Lista_Arquivos
                     double nota1 = double.Parse(dados[2]) / 10.0;
                     double nota2 = double.Parse(dados[3]) / 10.0;
                     double nota3 = double.Parse(dados[4]) / 10.0;
-                
-                    maior = nota1;
 
-                    if (nota2 > maior)
+
+                    if (nota1 > maior)
                     {
-                        maior= nota2;
+                        maior = nota1;
+                        nome = dados[1];
                     }
-                    if (nota3 > maior)
+                    else if (nota2 > maior)
+                    {
+                        maior = nota2;
+                        nome = dados[1];
+
+                    }
+                    else if (nota3 > maior)
                     {
                         maior = nota3;
+                        nome = dados[1];
                     }
                     linha = arq.ReadLine();
                 } while (linha != null);
                 arq.Close();
-                Console.WriteLine("Maior nota: " + maior);
+                Console.WriteLine("A maior nota é " + maior + " do aluno " + nome);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erro: " + ex.Message);
             }
         }
-        */
 
         static void imprimeDados(string[] nomes, double[] medias)
         {
@@ -194,6 +200,5 @@ namespace C_.Lista_Arquivos
                 Console.WriteLine(nomes[i] + " " + medias[i]);
             }
         }
-
     }
 }
