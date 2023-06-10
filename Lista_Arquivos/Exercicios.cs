@@ -21,6 +21,7 @@ namespace C_.Lista_Arquivos
             maiorNota(caminho);
             imprimeDados(nomes, medias);
         }
+        
         static int tamanhoArquivo(string caminho)
         {
             int cont = 0;
