@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NTIC\\.nuget\\packages\\": {}
+    "C:\\Users\\Abner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NTIC\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "C:\\Users\\NTIC\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
-      "packagesPath": "C:\\Users\\NTIC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NTIC\\Documents\\GitHub\\CSharp_PUC-MG\\obj\\",
+      "projectPath": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\C#.csproj",
+      "packagesPath": "C:\\Users\\Abner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abner\\Documents\\GitHub\\CSharp_PUC-MG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NTIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Abner\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
