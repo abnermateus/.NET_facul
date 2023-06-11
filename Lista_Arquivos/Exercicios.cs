@@ -6,6 +6,7 @@ namespace C_.Lista_Arquivos
 {
     public class Exercicios
     {
+        /*
         static void Main(String[] args)
         {
             string caminho = "Lista_Arquivos\\alunos.txt";
@@ -199,6 +200,6 @@ namespace C_.Lista_Arquivos
             {
                 Console.WriteLine(nomes[i] + " " + medias[i]);
             }
-        }
-    }
+        } */
+    } 
 }
