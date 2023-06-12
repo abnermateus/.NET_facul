@@ -1,19 +1,14 @@
 ﻿using System;
 
-namespace Lista_Orientação_à_Objetos
+namespace C_.Lista_POO
 {
-    class Ex2
+    public class Ex2
     {
-        /*
         class ContaBancaria
         {
             public string titular;
             private double saldo;
 
-            public void exibeTitular()
-            {
-                Console.WriteLine("O titular da conta é " + titular);
-            }
             public void exibeSaldo()
             {
                 Console.WriteLine("Seu saldo é: R$ {0}", saldo);
@@ -36,12 +31,12 @@ namespace Lista_Orientação_à_Objetos
             }
         }
 
-        
+        /*
         public static void Main(String[] args)
         {
             ContaBancaria conta = new ContaBancaria();
             conta.titular = "Abner Mateus";
-            conta.exibeTitular();
+            Console.WriteLine("Titular: " + conta.titular);
             conta.exibeSaldo();
             conta.depositar(50);
             conta.exibeSaldo();
@@ -51,6 +46,5 @@ namespace Lista_Orientação_à_Objetos
             conta.exibeSaldo();
         }
         */
-    }   
-
+    }
 }

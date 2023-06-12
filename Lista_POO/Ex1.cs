@@ -1,18 +1,17 @@
 ﻿using System;
 
-namespace Lista_Orientação_à_Objetos
+namespace C_.Lista_POO
 {
-    class Ex1
+    public class Ex1
     {
-        /*
         class Retangulo
         {
             double largura, altura;
 
-            public void medidas(double larg, double alt)
+            public void medidas(double largura, double altura)
             {
-                largura = larg;
-                altura = alt;
+                this.largura = largura;
+                this.altura = altura;
             }
 
             public double area()
@@ -26,6 +25,7 @@ namespace Lista_Orientação_à_Objetos
             }
         }
 
+        /*
         static void Main(string[] args)
         {
             Retangulo retangulo = new Retangulo();
