@@ -82,7 +82,7 @@ namespace C_.Lista_Arquivos
                 do
                 {
                     dados = linha.Split();
-                    double nota1 = double.Parse(dados[2]) / 10.0;
+                    double nota1 = double.Parse(dados[2]) / 10.0; 
                     double nota2 = double.Parse(dados[3]) / 10.0;
                     double nota3 = double.Parse(dados[4]) / 10.0;
                     medias[i] = Math.Round(((nota1 + nota2 + nota3) / 3.0), 2);
@@ -200,6 +200,7 @@ namespace C_.Lista_Arquivos
             {
                 Console.WriteLine(nomes[i] + " " + medias[i]);
             }
-        } */
+        } 
+        */
     } 
 }
