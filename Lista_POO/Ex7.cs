@@ -21,7 +21,7 @@ namespace C_.Lista_POO
         /*
         static void Main(String[] args)
         {
-            Funcionario funcionario = new Funcionario("Edwaldo", "Professore");
+            Funcionario funcionario = new Funcionario("Edwaldo", "Professor");
             Console.WriteLine("Nome: " + funcionario.nome);
             Console.WriteLine("Cargo: " + funcionario.cargo);
             Console.WriteLine("Salário: " + funcionario.salario);
